@@ -2,6 +2,7 @@ from datetime import datetime
 from domain.use_cases import should_deactivate_conversation
 from infrastructure.db import mongodb
 from infrastructure.ai import openai_client
+from infrastructure.Telegram import enviar_mensaje_telegram
 
 def process_message(phone_number: str, user_text: str):
     existing = mongodb.find_active_conversation(phone_number)
@@ -24,7 +25,7 @@ def process_message(phone_number: str, user_text: str):
     }
 
     status = mongodb.upsert_conversation(phone_number, user_msg, ai_msg)
-
+    enviar_mensaje_telegram(chat_id=int(phone_number), texto=ai_reply)
     return {
         "respuesta_ai": ai_reply,
         "status": status

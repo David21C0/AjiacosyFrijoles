@@ -4,3 +4,4 @@ pymongo
 langchain
 langchain-openai
 uvicorn
+python-dotenv

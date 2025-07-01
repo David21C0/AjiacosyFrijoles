@@ -10,9 +10,9 @@ def enviar_mensaje_telegram(chat_id: int, texto: str):
         "text": texto
     }
 
-    print(f"[DEBUG] Enviando a chat_id={chat_id} el texto: {texto}")
-    print(f"[DEBUG] URL: {url}")
-    print(f"[DEBUG] Payload: {payload}")
+   # print(f"[DEBUG] Enviando a chat_id={chat_id} el texto: {texto}")
+  #  print(f"[DEBUG] URL: {url}")
+   # print(f"[DEBUG] Payload: {payload}")
 
     response = requests.post(url, json=payload)
 

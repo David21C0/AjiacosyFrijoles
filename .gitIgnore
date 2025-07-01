@@ -1,0 +1,156 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# FastAPI cache or logs (if applicable)
+*.log
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test / coverage results
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+pytest_cache/
+.pytest_cache/
+
+# Python build artifacts
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Pydantic cache (sometimes generated)
+*.mypy_cache/
+*.pydantic/
+
+# dotenv
+.env
+.env.*
+
+# SQLite or local DBs
+*.sqlite3
+*.db
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Gunicorn PID/logs (if using Gunicorn)
+gunicorn.pid
+gunicorn.log
+
+# Docker
+*.pid
+*.sock
+
+# Optional: Ignore local config files
+config_local.py
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# FastAPI cache or logs (if applicable)
+*.log
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test / coverage results
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+pytest_cache/
+.pytest_cache/
+
+# Python build artifacts
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Pydantic cache (sometimes generated)
+*.mypy_cache/
+*.pydantic/
+
+# dotenv
+.env
+.env.*
+
+# SQLite or local DBs
+*.sqlite3
+*.db
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Gunicorn PID/logs (if using Gunicorn)
+gunicorn.pid
+gunicorn.log
+
+# Docker
+*.pid
+*.sock
+
+# Optional: Ignore local config files
+config_local.py
